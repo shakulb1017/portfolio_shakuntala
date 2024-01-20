@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Design</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
+
+    @import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,700;1,700&display=swap");
+
+    * {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      font-family: "PT Serif", serif;
+      box-sizing: border-box;
+    }
+
+    /* ************navbar start*********** */
+
+    .navbar {
+      width: 100%;
+      height: 15%;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .logo {
+      margin-left: 5rem;
+      margin-top: 0.5rem;
+      font-size: 1.5rem;
+    }
+
+    ul {
+      display: flex;
+      justify-content: space-around;
+      margin-right: 5rem;
+    }
+
+    li {
+      padding: 1rem 1rem;
+    }
+
+    .navbar ul li a {
+      box-sizing: border-box;
+      font-size: 1.5rem;
+
+      color: black;
+      text-decoration: none;
+      border-radius: 10px;
+      padding: 0.5rem;
+    }
+
+    ul li a:hover {
+      box-sizing: border-box;
+      text-decoration: none;
+      border-radius: 10px;
+      color: white;
+      background-color: #7510F7;
+      padding: 0.5rem;
+    }
+
+    /* ************navbar  end*********** */
+
+    /* ************section start*********** */
+
+    .border-1 {
+      width: 40%;
+      margin-top: 0.5rem;
+
+      border-top: 2px solid #7510f7;
+    }
+
+    .section-1 {
+      width: 100%;
+      height: 810px;
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+    }
+
+    .container-1 {
+      width: 60%;
+      margin: 10rem 20rem;
+    }
+
+    .container-1 .divinfo .p2 {
+      font-size: 1rem;
+      margin-top: 0.5rem;
+      color: #0a1c1f;
+    }
+
+    .container-1 .divinfo .p-1 {
+      font-size: 1.5rem;
+      margin-bottom: 0.3rem;
+    }
+
+    .container-1 .divinfo h1 {
+      font-size: 2.8rem;
+      margin-top: 0.5rem;
+      line-height: 4rem;
+    }
+
+    .container-1 .divinfo h6 {
+      font-size: 2rem;
+      line-height: 3rem;
+      color: rgba(9, 8, 8, 0.797);
+      font-family: sans-serif;
+    }
+
+    .container-1 .buttons button {
+      font-size: 1rem;
+      padding: 12px;
+      border-radius: 1rem;
+      margin: 1rem 1rem 0 0rem;
+      background-color: #7510f7;
+      border: 1px solid #7510f7;
+    }
+
+    .container-1 .buttons .btn-1 {
+      background-color: black;
+      color: #7510f7;
+      border: 1px solid black;
+    }
+
+    /* ************section  end*********** */
+
+    .line {
+      width: 100%;
+      border-top: 5px solid rgb(35, 46, 166);
+    }
+
+    .img-1 img {
+      margin-top: 5.4rem;
+      margin-left: 4rem;
+      width: 80%;
+      height: 70%;
+    }
+
+    /* ************section  start*********** */
+
+    .section-2 {
+      background-color: #7510f7;
+      width: 100%;
+
+      display: flex;
+
+      flex-direction: column;
+    }
+
+    .container-2 {
+      width: 60%;
+      height: 590px;
+      margin: 8rem 20rem;
+
+    }
+
+    .border-2 {
+      width: 25%;
+      margin-left: 19.6rem;
+      border-top: 3px solid rgb(42, 6, 83);
+    }
+
+    .container-2 .about-me {
+      margin-left: 20rem;
+      font-size: 1.7rem;
+      text-transform: uppercase;
+      line-height: 40px;
+      color: #e5d8d8;
+    }
+
+    .container-2 .greet {
+      margin-top: 1rem;
+      font-size: 2.3rem;
+      color: #121e34;
+      margin-left: 20rem;
+    }
+
+    .container-2 .intro {
+      margin-top: 1rem;
+      font-size: 2rem;
+      margin-left: 60px;
+      text-transform: capitalize;
+      line-height: 3rem;
+      opacity: 0.8;
+      color: white;
+      font-weight: bolder;
+
+    }
+
+    .container-2 .about p {
+      font-family: cursive;
+      font-size: 1rem;
+      margin-top: 1rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+      /* margin-left: 1.5rem; */
+      color: rgb(220, 196, 196);
+      font-weight: 400;
+      font-family: Georgia, "Times New Roman", Times, serif;
+      gap: 2;
+      text-align: center;
+      line-height: 35px;
+    }
+
+    /* ************section  end*********** */
+
+    .line {
+      width: 100%;
+      border-top: 5px solid rgb(35, 46, 166);
+    }
+
+    .section-3 {
+      width: 100%;
+      height: 600px;
+
+    }
+
+    .card {
+      position: absolute;
+      top: 1650px;
+      display: flex;
+      justify-content: space-evenly;
+      width: 80%;
+      height: 650px;
+      margin: auto;
+      margin-left: 140px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+        rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+        rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    }
+
+    .card-1 {
+      width: 300px;
+      height: 350px;
+      display: flex;
+      flex-direction: column;
+      margin-top: 180px;
+      box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+        rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    }
+
+    .webdesign {
+      text-align: center;
+      margin: 10px;
+      font-size: 28px;
+      font-weight: bold;
+
+    }
+
+    .p {
+      color: rgb(84, 75, 75);
+      text-align: center;
+      font-size: 15px;
+
+
+    }
+
+    .sub-head {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 20px;
+      color: #7510f7;
+    }
+
+    .lang {
+      text-align: center;
+      margin: 20px;
+      font-size: 20px;
+      color: #121e34;
+    }
+
+    .btn3 {
+      width: 150px;
+
+      font-size: 20px;
+      padding: 6px;
+      margin-left: 70px;
+      background-color: #7510f7;
+      border-radius: 20px;
+      border: none;
+    }
+
+    /* **************footer*************** */
+
+    .footer {
+      width: 100%;
+
+
+    }
+
+    .footer-container {
+      position: absolute;
+      top: 2730px;
+      height: 200px;
+      width: 100%;
+      background-color: #7510f7;
+    }
+
+    .mean {
+      margin-top: 80px;
+      text-align: center;
+      font-size: 35px;
+      color: black;
+    }
+
+    .social-media {
+      text-align: center;
+      margin: 40px 0 0 0;
+
+
+    }
+
+    .whatsapp,
+    .linkedin,
+    .mail,
+    .git {
+      padding-left: 20px;
+    }
+
+    .foot {
+      text-align: center;
+      margin-top: 5rem;
+      color: white;
+    }
+
+
+
+
+
+    /* ************section-4*********** */
+
+
+    .section-4 {
+      width: 100%;
+      height: 600px;
+      background-color: #7510f7;
+      padding-top: 50px;
+      margin-top: -100px;
+    }
+
+
+
+    .get {
+
+      text-align: center;
+      margin-top: 155px;
+      font-size: 60px;
+      text-transform: uppercase;
+      color: white;
+    }
+
+
+
+    .phone,
+    .mail-icon,
+    .address {
+      margin-top: 25px;
+      text-align: center;
+      font-size: 16px;
+      color: white;
+      line-height: 40px;
+
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      <h1><span style="color: #7510F7">Port</span>folio</h1>
+    </div>
+
+    <div>
+      <ul>
+
+        <li><a href="index.html#section-3">Skills</a></li>
+        <li><a href="SHAKUNTALA SHARMA.pdf">Resume</a></li>
+        <li><a href="index.html#section-4">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <section class="section-1" id="section-1">
+    <div class="container-1">
+      <div class="divinfo">
+        <p class="p-1">Welcome to My Portfolio</p>
+
+        <div class="border-1"></div>
+
+        <h1>
+          Hello I'm <span style="color: #7510F7">S</span>hakuntala
+          <span style="color: #7510F7">S</span>harma
+        </h1>
+        <h6>UI/UX Developer</h6>
+        <p class="p2">
+          A Front-End Developer with entry-level experience specializing in
+          web development, user interface design, HTML, and AngularJS. Adept
+          at identifying opportunities to enhance front-end design and improve
+          the user experience.
+        </p>
+      </div>
+
+
+      <div class="buttons">
+        <a href="SHAKUNTALA SHARMA.pdf" download="download" target="_blank"><button class="btn-1">Download
+            Resume</button></a>
+
+        <a href="index.html#section-4" target="_blank"><button>Contact Us</button></a>
+      </div>
+
+
+      <div class="img-1">
+        <img src="https://mattfarley.ca/img/hero-devices.svg" alt="" height="600px" width="600px">
+      </div>
+    </div>
+  </section>
+
+
+  <div class="line"></div>
+
+
+  <section class="section-2" id="section-2">
+    <div class="container-2">
+      <div class="about-me">
+        <h2> About Me</h2>
+      </div>
+
+      <div class="border-2"></div>
+      <div>
+        <h3 class="greet">Hello You...</h3>
+        <p class="intro">my name is shakuntala and i'm a ui/ux Developer</p>
+      </div>
+
+
+
+      <div class="about">
+
+        <p>
+          A front-end developer with entry-level experience specializing in web
+          development, UI design, HTML, and JS. Adept at identifying.
+          opportunities to enhance front-end design and improve the UX.
+          Coordinate with the web development team to design UI for client
+          identifying solutions.
+
+          Create responsive designs for mobile applications, built wireframes,
+          and developed prototypes for web development projects.
+        </p>
+
+      </div>
+
+
+  </section>
+
+
+  <section class="section-3" id="section-3">
+    <div class="card">
+
+
+      <div class="card-1">
+        <h2 class="webdesign">Designer</h2>
+        <p class="p">
+          I value simple content structure, clean design patterns,
+          and thoughtful interactions.
+        </p>
+        <h5 class="sub-head">Things I enjoy designing:</h5>
+        <p class="lang">UX, UI, Web, Logos</p>
+        <button class="btn3">Learn more</button>
+      </div>
+
+      <div class="card-1">
+        <h2 class="webdesign">Frontend Developer</h2>
+        <p class="p">
+          I like to code things from scratch, and enjoy bringing ideas to life
+          in the browser.
+        </p>
+        <h5 class="sub-head">Languages :</h5>
+        <p class="lang">HTML, CSS, Javascript</p>
+        <button class="btn3">Learn more</button>
+      </div>
+
+      <div class="card-1">
+        <h2 class="webdesign">Mentor</h2>
+        <p class="p">
+          I genuinely care about people, and enjoy helping them work on
+          their craft.
+        </p>
+        <h5 class="sub-head">Experiences I draw from:</h5>
+        <p class="lang">UX/UI, Product design</p>
+        <button class="btn3">Learn more</button>
+      </div>
+
+
+
+
+  </section>
+
+
+
+  <section class="section-4" id="section-4">
+    <div class="form-container">
+      <h2 class="get">Get in touch</h2>
+      <div class="phone">
+        <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+
+          <path
+            d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z" />
+        </svg>
+        <span>Phone :
+          +91 95220 30040</span>
+      </div>
+      <div class="mail-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+
+          <path
+            d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z" />
+        </svg>
+        <span>Email : <span style="color:black;">shakulbsharma@gmail.com</span></span>
+
+      </div>
+      <div class="address">
+        <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 384 512">
+
+          <path
+            d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z" />
+        </svg>
+        <span>Address : 72, Rakhi Nagar Nand Bagh Tigariya Badshah Main Road ,Indore (MP)</span>
+
+      </div>
+
+
+
+
+
+      <!-- <section >
+            <div class="bg">
+                <form class="form-container"> -->
+      <!-- <div class="right-page">
+                        <div class="right-page-container">
+        
+                        <br><input type="text" placeholder="Enter Your Name" id="fname" >
+                    
+                  <br>  
+                  
+                        <input type="email" placeholder="Enter Your Email" id="email">
+                    
+            
+                    <br>
+                   
+                        <input type="text" placeholder="Enter Your Number" id="country">
+    
+                      <textarea name="" id="" cols="" rows="" placeholder="say something...."></textarea>
+        
+                        
+                    
+                    <button>Send Message</button>
+                   
+                        </div> -->
+
+      <!-- </div>
+                    </div>  
+        </section> -->
+
+
+    </div>
+  </section>
+
+
+
+
+  <footer class="footer">
+    <div class="footer-container">
+
+      <div class="social-media">
+        <a href="www.linkedin.com/in/shakuntala-sharma-7b571b257" class="linkedin">
+          <i class="fa-brands fa-linkedin" style="color: white; font-size: 40px;"></i>
+        </a>
+        <a href="mailto:shakulbsharma@gmail.com" class="mail">
+          <i class="fa-solid fa-envelope" style="color: white; font-size: 40px;"></i>
+        </a>
+        <a href="https://api.whatsapp.com/send?phone=+919522030040&text=Send20%a20%quote" class="whatsapp">
+          <i class="fa-brands fa-whatsapp" style="color: white; font-size: 40px;"></i>
+
+        </a>
+        <a href="https://github.com/shakulb1017/" class="git">
+          <i class="fa-brands fa-github" style="color: white; font-size: 40px;"></i>
+        </a>
+      </div>
+
+
+      <p class="foot">Handcrafted by me @Copyright twentytwentyfour</p>
+
+    </div>
+
+
+  </footer>
+</body>
+
+</html>
